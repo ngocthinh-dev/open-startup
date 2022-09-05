@@ -5,6 +5,8 @@ A landing page created by HTML, CSS and responsive with three pages:
 - Sign up
 - Sign in
 
+**[Demo](https://open-startup.netlify.app/)**
+
 ## Source Design
 
 ![image desc](./assets/images/thumbnail.jpg)
