@@ -1,0 +1,238 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .root {
+    padding: 0 30px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 64px;
+  }
+  .solutions-item {
+    flex-direction: column-reverse;
+  }
+  .solutions-item.revert {
+    flex-direction: column-reverse;
+  }
+  .solutions-item .solution-content {
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .solutions-item.revert .solution-content {
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .solution-img {
+    width: 100%;
+  }
+  .solution-img img {
+    margin: 0 auto;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .subscribe form {
+    width: 100%;
+    margin-top: 16px;
+    justify-content: start !important;
+  }
+
+  .subscribe input {
+    width: 100%;
+    max-width: unset;
+  }
+
+  .comments-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .comment-item {
+    margin-bottom: 16px;
+  }
+
+  .footer-top {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .social-link {
+    margin-top: 16px;
+  }
+
+  .social-link a:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .form h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .root {
+    padding: 0 40px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+  }
+  .solutions-item {
+    flex-direction: column-reverse;
+  }
+  .solutions-item.revert {
+    flex-direction: column-reverse;
+  }
+  .solutions-item .solution-content {
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .solutions-item.revert .solution-content {
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .solution-img {
+    width: 100%;
+  }
+  .solution-img img {
+    margin: 0 auto;
+  }
+
+  .comments-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .comment-item {
+    margin-bottom: 16px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .subscribe form {
+    width: 100%;
+    margin-top: 16px;
+    justify-content: start !important;
+  }
+
+  .subscribe input {
+    width: 300px;
+  }
+
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .root {
+    padding: 0 50px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+  }
+  .solutions-item {
+    flex-direction: column-reverse;
+  }
+  .solutions-item.revert {
+    flex-direction: column-reverse;
+  }
+  .solutions-item .solution-content {
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .solutions-item.revert .solution-content {
+    padding: 0px;
+    margin-top: 16px;
+  }
+  .solution-img {
+    width: 100%;
+  }
+  .solution-img img {
+    margin: 0 auto;
+  }
+
+  .comments-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .comment-item {
+    margin-bottom: 0px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .subscribe form {
+    width: 100%;
+    margin-top: 16px;
+    justify-content: start !important;
+  }
+
+  .subscribe input {
+    width: 300px;
+  }
+
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .root {
+    padding: 0 60px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px;
+  }
+  .solutions-item {
+    flex-direction: row;
+  }
+
+  .footer-top {
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .form h1 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .root {
+    padding: 0 80px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px;
+  }
+  .solutions-item {
+    flex-direction: row;
+  }
+}

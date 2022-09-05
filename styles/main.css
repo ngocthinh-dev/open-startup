@@ -1,0 +1,279 @@
+:root {
+  --primary-color: #5d5dff;
+  --secondary-color: #33363a;
+  --title-color: #d9e3ea;
+  --description-color: #9ba9b4;
+  --success-color: #36a269;
+  --background-color: #151719;
+  --white-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  font-family: "Inter";
+  font-size: 62.5%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.root {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1184px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  height: 40px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 24px;
+  box-sizing: border-box;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  transition: all ease 0.25s;
+}
+
+.primary-btn {
+  background: var(--primary-color);
+  color: var(--title-color);
+}
+
+.secondary-btn {
+  background: var(--secondary-color);
+  color: var(--title-color);
+}
+
+.unfilled-btn {
+  color: var(--primary-color);
+}
+
+.unfilled-btn:hover {
+  text-decoration: underline;
+}
+
+.primary-btn:hover {
+  background: #4949ff;
+}
+
+.secondary-btn:hover {
+  background: #2a2d31;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+h1.section-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 62px;
+  color: var(--title-color);
+  margin: 0;
+  max-width: 768px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+h2.section-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--title-color);
+  margin: 0;
+  max-width: 768px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+p.section-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--description-color);
+  margin: 10px 0 32px 0;
+  max-width: 768px;
+  text-align: center;
+  letter-spacing: -0.25px;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}
+
+.mr-2 {
+  margin-right: 2em;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.row.justify-end {
+  justify-content: end;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-control label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #c5d2dc;
+  margin-bottom: 4px;
+}
+
+.form-control label span {
+  color: #e53d3e;
+}
+
+.form-control input {
+  height: 48px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  background: transparent;
+  border: 1px solid #33363a;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-control input::placeholder {
+  color: #707d86;
+}
+
+form a {
+  color: #5d5dff;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+.google-btn {
+  width: 100%;
+  height: 48px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: #e53d3e;
+  border-radius: 4px;
+  color: white;
+  outline: none;
+  border: none;
+  transition: all ease 0.25s;
+}
+
+.google-btn:hover {
+  cursor: pointer;
+  background: #e43333;
+}
+
+.google-btn span {
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 12px;
+}
+.google-btn p {
+  width: 100%;
+  text-align: center;
+}
+
+.form-btn {
+  width: 100%;
+  height: 48px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  background: #5d5dff;
+  letter-spacing: -0.25px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  transition: all ease 0.25s;
+}
+
+.form-btn:hover {
+  background: #4f4fff;
+}
+
+.swap-form {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.25px;
+
+  color: #9ba9b4;
+}
+
+.on-top-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #5d5dff;
+  color: white;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}

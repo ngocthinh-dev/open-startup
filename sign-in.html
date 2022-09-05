@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="root">
+      <header>
+        <div class="logo">
+         <a href="/"
+            ><img
+              src="./assets/images/logo.png"
+              alt="Logo Startup"
+              style="width: 32px; height: 32px"
+          /></a>
+        </div>
+      </header>
+      <main>
+        <section class="form">
+          <h1>Welcome. We exist to make entrepreneurism easier.</h1>
+          <form action="#">
+            <button class="google-btn">
+              <i class="fa-brands fa-google"></i>
+              <span></span>
+              <p>Sign in with Google</p>
+            </button>
+            <div class="option">
+              <span></span>
+              <p>Or, sign in with your email</p>
+              <span></span>
+            </div>
+            <div class="form-control">
+              <label for="">Email <span>*</span></label>
+              <input type="email" placeholder="you@yourcompany.com" required />
+            </div>
+            <div class="form-control">
+              <label for="">Password <span>*</span></label>
+              <input type="password" placeholder="Password" required/>
+            </div>
+            <button class="form-btn" type="submit">Sign up</button>
+            <p class="swap-form">
+              Don't you have an account? <a href="./sign-up.html">Sign up</a>
+            </p>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
